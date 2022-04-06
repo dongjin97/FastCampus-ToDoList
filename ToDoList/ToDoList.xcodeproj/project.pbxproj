@@ -16,6 +16,7 @@
 		F88EF51727FD65BC00634696 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88EF51627FD65BC00634696 /* ToDoListTests.swift */; };
 		F88EF52127FD65BC00634696 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88EF52027FD65BC00634696 /* ToDoListUITests.swift */; };
 		F88EF52327FD65BC00634696 /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88EF52227FD65BC00634696 /* ToDoListUITestsLaunchTests.swift */; };
+		F88EF53027FD6BDA00634696 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88EF52F27FD6BDA00634696 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F88EF51C27FD65BC00634696 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88EF52027FD65BC00634696 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		F88EF52227FD65BC00634696 /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F88EF52F27FD6BDA00634696 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F88EF50827FD65BC00634696 /* Assets.xcassets */,
 				F88EF50A27FD65BC00634696 /* LaunchScreen.storyboard */,
 				F88EF50D27FD65BC00634696 /* Info.plist */,
+				F88EF52F27FD6BDA00634696 /* Task.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88EF53027FD6BDA00634696 /* Task.swift in Sources */,
 				F88EF50427FD65BB00634696 /* ViewController.swift in Sources */,
 				F88EF50027FD65BB00634696 /* AppDelegate.swift in Sources */,
 				F88EF50227FD65BB00634696 /* SceneDelegate.swift in Sources */,
